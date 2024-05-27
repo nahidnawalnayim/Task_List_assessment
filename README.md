@@ -1,14 +1,14 @@
-##Project Structure:
+## Project Structure:
 
 The project will be organized with separate folders for components, actions, reducers, Redux store setup, Tailwind CSS configuration, and the main application page (index.js).
 
-##Technologies:
+## Technologies:
 Next.js: A React framework for server-side rendering, static site generation, and routing.
 Redux: A predictable state management library for JavaScript applications.
 Redux Persist: An add-on for Redux that enables persistence of state across page reloads.
 Tailwind CSS: A utility-first CSS framework for rapid UI development.
 
-##Redux Setup:
+## Redux Setup:
 A Redux store will be created to manage the application's state, including the todo list, filter options, and search term.
 Reducers will handle actions dispatched from components to update the state based on user interactions.
 Redux Persist will be integrated to automatically save the state (e.g., localStorage) for persistence across page reloads.
@@ -22,7 +22,7 @@ Tailwind CSS:
 Tailwind CSS will provide utility classes for styling the application's UI elements.
 A global stylesheet (globals.css) will import the base styles and components from Tailwind CSS.
 
-##Workflow:
+## Workflow:
 Users can add new todo items by entering text in an input field and clicking a button.
 Upon adding a todo, the addTodo action will be dispatched, updating the Redux state.
 The TodoList component will receive the updated list of todos from the Redux store and render the list items.
